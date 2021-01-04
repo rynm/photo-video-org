@@ -12,7 +12,7 @@ All files in all folders are recursively hashed and compared with all other file
 This software has been tested many times with hundreds of gigabytes of test files. 
 
 One known issue: 
-Do not use a folder path with an underscore in the folder name.
+Do not use an input folder path with an underscore in any folder name.
 
 One manual change before running: 
 Set the absolute output path of the two output folders. I did not get around to adding an input switch for this. It is currently both set to F:\cleanpictures and F:\deletedpictures
