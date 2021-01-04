@@ -15,6 +15,6 @@ One known issue:
 Do not use an input folder path with an underscore in any folder name.
 
 One manual change before running: 
-Set the absolute output path of the two output folders. I did not get around to adding an input switch for this. It is currently both set to F:\cleanpictures and F:\deletedpictures
+Set the absolute output path of the two output folders. I did not get around to adding an input switch for this. It is currently both set to `F:\cleanedpictures` and `F:\deletedpictures`.
 
 
