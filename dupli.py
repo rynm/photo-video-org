@@ -62,7 +62,6 @@ def printResults(dict1):
                 timedir = d.strftime("%Y %b %d")
             except:
                 # something unexpected, bail and use the modified time
-                print("say wha")
                 pass
 
         cleandir = 'F:\\cleanpictures\\'+timedir
