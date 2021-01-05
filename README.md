@@ -17,12 +17,13 @@ Do not use an input folder path with an underscore in any folder name. An unders
 One manual required before running: 
 Set the absolute output path of the two output folders. I did not get around to adding an input switch for this. It is currently both set to `F:\cleanpictures` and `F:\deletedpics`.  
   
-This script can work with any file type not just images and video.  
+This script can work with any file type not just images and video. Once again, nothing is deleted.
 
 ## Sample output
 Input folder `test` contains four dirs as listed in the scan below including two copies.  
 Execute: `python dupli\dupli.py test`  
-Output: The folders are created based on image dates, in this case embedded in the file name as Apple stores its images. `F:\cleanpictures\2020 Oct 20`, and `F:\cleanpictures\2018 Nov 13`. If the date is not stored in this format in the file name, the image date for its folder will be taken from the modified time of the image or video.
+Output: The folders are created based on image dates, in this case embedded in the file name as Apple stores its images. `F:\cleanpictures\2020 Oct 20`, and `F:\cleanpictures\2018 Nov 13`. If the date is not stored in this format in the file name, the image date for its folder will be taken from the modified time of the image or video. All of the duplicate images 'tossed' as indicated below are found in `F:\deletedpics'.  
+
 
 ~~~
 F:\>python dupli\dupli.py test
