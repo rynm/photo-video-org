@@ -22,7 +22,8 @@ This script can work with any file type not just images and video. Once again, n
 ## Sample output
 Input folder `test` contains four dirs as listed in the scan below including two copies.  
 Execute: `python dupli\dupli.py test`  
-Output: The folders are created based on image dates, in this case embedded in the file name as Apple stores its images. `F:\cleanpictures\2020 Oct 20`, and `F:\cleanpictures\2018 Nov 13`. If the date is not stored in this format in the file name, the image date for its folder will be taken from the modified time of the image or video. All of the duplicate images 'tossed' as indicated below are found in `F:\deletedpics'.  
+  
+Output: The folders are created based on image dates, in this case embedded in the file name as Apple stores its images. `F:\cleanpictures\2020 Oct 20`, and `F:\cleanpictures\2018 Nov 13` are created. If the date is not stored in this format in the file name, the image date for its folder will be taken from the modified time of the image or video. All of the duplicate images 'tossed' as indicated below are found in `F:\deletedpics`.  
 
 
 ~~~
