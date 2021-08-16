@@ -1,4 +1,4 @@
-# photo-vid-org-and-dupli
+# photo-video-org
 Photo and video file by-date organizer with duplication detection. Nothing is deleted, a new folder with cleaned items and another folder with the duplicated items are created. A clear output log is shown on what files were kept in the clean or placed in the duplicated folder if there was a hash conflict.
 
 Requirements: Python 3.x
